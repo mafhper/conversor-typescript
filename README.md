@@ -1,10 +1,10 @@
-# Conversor TypeScript
+# Conversor de Moedas em TypeScript
 
 **Autor:** Matheus Pereira
 
 ## Descrição
 
-Este projeto é um conversor de arquivos JavaScript (JS) para TypeScript (TS). Ele foi desenvolvido para auxiliar no processo de migração de projetos existentes ou na conversão de arquivos JS para o formato TS, permitindo que você aproveite os benefícios da tipagem estática.
+Este projeto é um conversor de valores em Reais (R$) para Dólares (US$) considerando a cotação do dólar informada. Ele foi desenvolvido para auxiliar a entender os conceitos de conversão de arquivos JS para o formato TS e os benefícios da tipagem estática.
 
 ## Como Instalar
 
@@ -30,8 +30,20 @@ Para instalar as dependências do projeto, use o npm (Node Package Manager). Cer
 
 ## Como Rodar
 
-Para executar o conversor, você pode usar o comando `npm run start`. O script de início converte os arquivos `input.js` e `input.ts` para os formatos correspondentes, resultando nos arquivos `output.js` e `output.ts`.
+Para compilar e executar o projeto, você pode usar o compilador **TypeScript (tsc)** diretamente.
+
+### Compilar o Código
+
+Para compilar os arquivos TypeScript (`.ts`) para JavaScript (`.js`), use o comando `tsc`. O compilador usará as configurações do `tsconfig.json` para processar todos os arquivos `.ts` e gerar os correspondentes `.js` no diretório de saída.
 
 ```bash
-npm run start
+tsc nome_do_arquivo.ts
+```
+
+### Executar o Projeto
+
+Após a compilação, para executar o código JavaScript gerado, use o comando abaixo. Ele rodará o arquivo principal `index.js`.
+
+```bash
+node nome_do_arquivo.js
 ```
