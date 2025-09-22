@@ -2,6 +2,10 @@
 
 **Autor:** Matheus Pereira
 
+## Descrição
+
+Este projeto é um conversor de valores em Reais (R$) para Dólares (US$) considerando a cotação do dólar informada.
+
 ## Como Instalar
 
 Para instalar as dependências do projeto, use o npm (Node Package Manager). Certifique-se de ter o Node.js e o npm instalados em sua máquina.
